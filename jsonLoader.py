@@ -43,12 +43,13 @@ def loadRolls() -> List[int]:
     return rolls
 
 
-def loadPlayers() -> List[Player]:
+def createPlayers() -> List[Player]:
     players = []
     players.append(Player("Peter"))
     players.append(Player("Billy"))
     players.append(Player("Charlotte"))
     players.append(Player("Sweedal"))
+    return players
     
 
 

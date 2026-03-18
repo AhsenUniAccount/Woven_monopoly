@@ -5,7 +5,7 @@ from player import Player
 
 def print_board():
     board = loadBoard() ## loads the board
-    players = loadPlayers() ## loads pre determined 4 players
+    players = createPlayers() ## loads pre determined 4 players
 
     for space in board:
         if isinstance(space, Go):
