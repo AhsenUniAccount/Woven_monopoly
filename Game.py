@@ -1,53 +1,58 @@
 from player import Player
-from Spaces import Space, Go, Property
-
-# goal of class, contains the gamestate and al of the rules which occur and functions involving a turn 
+from Spaces import Space
 
 
 class Game:
-     def __init__(self, players: list[Player], board: list[Space], Turns): #lock the datatypes?
-          self.Players = Players
-          self.Properties = Properites
-          self.Turns = Turns
-          self.gameActive = True
+    def __init__(self, players: list[Player], board: list[Space]):
+        self.players = players
+        self.board = board
+        self.currentTurn = 0
+        self.gameActive = True
 
-     def __str__(self):
-            return f"{self.Players})"
+    def movePlayer(self, player, roll):
+        old_position = player.position
+        board_size = len(self.board)
 
+        new_position = (old_position + roll) % board_size
 
+        if old_position + roll >= board_size:
+            player.money += 1
+            print(player.name, "passed GO and collected $1")
 
-def turn(self, roll: list[int])-> None:
-      """
-      for 1 player, executues there turn 
-      roll the dice 
-      move player from current position to new position 
-      did you pass go ?
-          -> yes give money
-      is property owned?
-          yes -> pay rent 
-          no -> buy property 
+        player.position = new_position
 
-     is any player bankrupt?
-          -> if yes end game 
-          -> if no, end end the turn
-      """
+    def takeTurn(self, player, roll):
+        print("\n---", player.name, "rolls", roll, "---")
+        self.movePlayer(player, roll)
 
+        current_space = self.board[player.position]
+        print(player.name, "moved to", current_space.name)
 
+        print("\nCurrent player stats:")
+        for current_player in self.players:
+            current_space = self.board[current_player.position]
+            print(
+                current_player.name,
+                "- money:", current_player.money,
+                "- position:", current_player.position,
+                "- space:", current_space.name
+            )
 
+    def playGame(self, rolls):
+        for roll in rolls:
+            player = self.players[self.currentTurn]
+            self.takeTurn(player, roll)
 
-def rentPayment(renter: Player, owner: Player, property: Property):
-      renter.money -= property.rent
-      owner.money += property.rent
+            self.currentTurn = (self.currentTurn + 1) % len(self.players)
 
+    def printResults(self):
+        print("\nFINAL RESULTS")
 
-def endGame(self) -> None
-     
-      """
-      out of the players, find the name of the player with the most money
-      if multiple players have the same amount of money, the game is a tie 
-      """
-
-
-
-      
-      
+        for player in self.players:
+            current_space = self.board[player.position]
+            print(
+                player.name,
+                "- money:", player.money,
+                "- position:", player.position,
+                "- space:", current_space.name
+            )

@@ -1,20 +1,26 @@
-from jsonLoader import loadBoard, loadPlayers
+from jsonLoader import loadBoard, loadRolls, createPlayers
 from Spaces import Go, Property
-from player import Player
+from Game import Game
 
 
-def print_board():
-    board = loadBoard() ## loads the board
-    players = createPlayers() ## loads pre determined 4 players
+from jsonLoader import loadBoard, loadRolls, createPlayers
+from Game import Game
 
-    for space in board:
-        if isinstance(space, Go):
-            print(f"Go: name={space.name}, position={space.position}")
-        elif isinstance(space, Property):
-            print(
-                f"Property: name={space.name}, position={space.position}, "
-                f"price={space.price}, rent={space.rent}, colour={space.colour}"
-            )
+
+def runGame(roll_file):
+    print("\n------------------")
+    print("RUNNING GAME WITH", roll_file)
+    print("==========================")
+
+    board = loadBoard()
+    rolls = loadRolls(roll_file)
+    players = createPlayers()
+
+    game = Game(players, board)
+    game.playGame(rolls)
+    game.printResults()
+
 
 if __name__ == "__main__":
-    print_board()
+    print("_________________\n\n\n\nstart------------")
+    runGame("rolls_2.json")
