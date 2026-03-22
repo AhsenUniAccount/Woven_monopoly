@@ -3,9 +3,9 @@ from typing import List
 from core.Spaces import Space, Go, Property
 from core.player import Player
 
-"""
-loads the preset board and the rolls from their respective files
-"""
+
+#loads the preset board rolls from their respective files as  well as the players
+
 def loadBoard() -> List[Space]:
     boardSpaces = []
 

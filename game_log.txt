@@ -1,0 +1,691 @@
+GAME START
+
+-------------------------------------------------------
+Running Game with rolls from roll file: data/rolls_1.json
+-------------------------------------------------------
+
+--- Peter rolls 1 ---
+Peter moved to The Burvale
+Peter is buying The Burvale
+
+Current player stats:
+Peter - money: 15 - position: 1 - space: The Burvale
+Billy - money: 16 - position: 0 - space: GO
+Charlotte - money: 16 - position: 0 - space: GO
+Sweedal - money: 16 - position: 0 - space: GO
+
+--- Billy rolls 3 ---
+Billy moved to The Grand Tofu
+Billy is buying The Grand Tofu
+
+Current player stats:
+Peter - money: 15 - position: 1 - space: The Burvale
+Billy - money: 14 - position: 3 - space: The Grand Tofu
+Charlotte - money: 16 - position: 0 - space: GO
+Sweedal - money: 16 - position: 0 - space: GO
+
+--- Charlotte rolls 1 ---
+Charlotte moved to The Burvale
+Charlotte needs to pay rent to Peter
+Rent is 1
+
+Current player stats:
+Peter - money: 16 - position: 1 - space: The Burvale
+Billy - money: 14 - position: 3 - space: The Grand Tofu
+Charlotte - money: 15 - position: 1 - space: The Burvale
+Sweedal - money: 16 - position: 0 - space: GO
+
+--- Sweedal rolls 1 ---
+Sweedal moved to The Burvale
+Sweedal needs to pay rent to Peter
+Rent is 1
+
+Current player stats:
+Peter - money: 17 - position: 1 - space: The Burvale
+Billy - money: 14 - position: 3 - space: The Grand Tofu
+Charlotte - money: 15 - position: 1 - space: The Burvale
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Peter rolls 1 ---
+Peter moved to Fast Kebabs
+Peter is buying Fast Kebabs
+
+Current player stats:
+Peter - money: 16 - position: 2 - space: Fast Kebabs
+Billy - money: 14 - position: 3 - space: The Grand Tofu
+Charlotte - money: 15 - position: 1 - space: The Burvale
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Billy rolls 2 ---
+Billy moved to Betty's Burgers
+Billy is buying Betty's Burgers
+
+Current player stats:
+Peter - money: 16 - position: 2 - space: Fast Kebabs
+Billy - money: 11 - position: 5 - space: Betty's Burgers
+Charlotte - money: 15 - position: 1 - space: The Burvale
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Charlotte rolls 4 ---
+Charlotte moved to Betty's Burgers
+Charlotte needs to pay rent to Billy
+Rent is 3
+
+Current player stats:
+Peter - money: 16 - position: 2 - space: Fast Kebabs
+Billy - money: 14 - position: 5 - space: Betty's Burgers
+Charlotte - money: 12 - position: 5 - space: Betty's Burgers
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Sweedal rolls 2 ---
+Sweedal moved to The Grand Tofu
+Sweedal needs to pay rent to Billy
+Rent is 2
+
+Current player stats:
+Peter - money: 16 - position: 2 - space: Fast Kebabs
+Billy - money: 16 - position: 5 - space: Betty's Burgers
+Charlotte - money: 12 - position: 5 - space: Betty's Burgers
+Sweedal - money: 13 - position: 3 - space: The Grand Tofu
+
+--- Peter rolls 6 ---
+Peter moved to Massizim
+Peter is buying Massizim
+
+Current player stats:
+Peter - money: 12 - position: 8 - space: Massizim
+Billy - money: 16 - position: 5 - space: Betty's Burgers
+Charlotte - money: 12 - position: 5 - space: Betty's Burgers
+Sweedal - money: 13 - position: 3 - space: The Grand Tofu
+
+--- Billy rolls 3 ---
+Billy moved to Massizim
+Billy needs to pay rent to Peter
+Rent is 4
+
+Current player stats:
+Peter - money: 16 - position: 8 - space: Massizim
+Billy - money: 12 - position: 8 - space: Massizim
+Charlotte - money: 12 - position: 5 - space: Betty's Burgers
+Sweedal - money: 13 - position: 3 - space: The Grand Tofu
+
+--- Charlotte rolls 5 ---
+Charlotte moved to The Burvale
+Charlotte needs to pay rent to Peter
+Rent is 2
+
+Current player stats:
+Peter - money: 18 - position: 8 - space: Massizim
+Billy - money: 12 - position: 8 - space: Massizim
+Charlotte - money: 11 - position: 1 - space: The Burvale
+Sweedal - money: 13 - position: 3 - space: The Grand Tofu
+
+--- Sweedal rolls 2 ---
+Sweedal moved to Betty's Burgers
+Sweedal needs to pay rent to Billy
+Rent is 3
+
+Current player stats:
+Peter - money: 18 - position: 8 - space: Massizim
+Billy - money: 15 - position: 8 - space: Massizim
+Charlotte - money: 11 - position: 1 - space: The Burvale
+Sweedal - money: 10 - position: 5 - space: Betty's Burgers
+
+--- Peter rolls 2 ---
+Peter moved to The Burvale
+Peter landed on their own property The Burvale
+
+Current player stats:
+Peter - money: 19 - position: 1 - space: The Burvale
+Billy - money: 15 - position: 8 - space: Massizim
+Charlotte - money: 11 - position: 1 - space: The Burvale
+Sweedal - money: 10 - position: 5 - space: Betty's Burgers
+
+--- Billy rolls 2 ---
+Billy moved to The Burvale
+Billy needs to pay rent to Peter
+Rent is 2
+
+Current player stats:
+Peter - money: 21 - position: 1 - space: The Burvale
+Billy - money: 14 - position: 1 - space: The Burvale
+Charlotte - money: 11 - position: 1 - space: The Burvale
+Sweedal - money: 10 - position: 5 - space: Betty's Burgers
+
+--- Charlotte rolls 4 ---
+Charlotte moved to Betty's Burgers
+Charlotte needs to pay rent to Billy
+Rent is 3
+
+Current player stats:
+Peter - money: 21 - position: 1 - space: The Burvale
+Billy - money: 17 - position: 1 - space: The Burvale
+Charlotte - money: 8 - position: 5 - space: Betty's Burgers
+Sweedal - money: 10 - position: 5 - space: Betty's Burgers
+
+--- Sweedal rolls 4 ---
+Sweedal moved to GO
+Sweedal landed on GO
+
+Current player stats:
+Peter - money: 21 - position: 1 - space: The Burvale
+Billy - money: 17 - position: 1 - space: The Burvale
+Charlotte - money: 8 - position: 5 - space: Betty's Burgers
+Sweedal - money: 11 - position: 0 - space: GO
+
+--- Peter rolls 6 ---
+Peter moved to Gami Chicken
+Peter is buying Gami Chicken
+
+Current player stats:
+Peter - money: 17 - position: 7 - space: Gami Chicken
+Billy - money: 17 - position: 1 - space: The Burvale
+Charlotte - money: 8 - position: 5 - space: Betty's Burgers
+Sweedal - money: 11 - position: 0 - space: GO
+
+--- Billy rolls 1 ---
+Billy moved to Fast Kebabs
+Billy needs to pay rent to Peter
+Rent is 2
+
+Current player stats:
+Peter - money: 19 - position: 7 - space: Gami Chicken
+Billy - money: 15 - position: 2 - space: Fast Kebabs
+Charlotte - money: 8 - position: 5 - space: Betty's Burgers
+Sweedal - money: 11 - position: 0 - space: GO
+
+--- Charlotte rolls 4 ---
+Charlotte moved to GO
+Charlotte landed on GO
+
+Current player stats:
+Peter - money: 19 - position: 7 - space: Gami Chicken
+Billy - money: 15 - position: 2 - space: Fast Kebabs
+Charlotte - money: 9 - position: 0 - space: GO
+Sweedal - money: 11 - position: 0 - space: GO
+
+--- Sweedal rolls 2 ---
+Sweedal moved to Fast Kebabs
+Sweedal needs to pay rent to Peter
+Rent is 2
+
+Current player stats:
+Peter - money: 21 - position: 7 - space: Gami Chicken
+Billy - money: 15 - position: 2 - space: Fast Kebabs
+Charlotte - money: 9 - position: 0 - space: GO
+Sweedal - money: 9 - position: 2 - space: Fast Kebabs
+
+--- Peter rolls 6 ---
+Peter moved to Lanzhou Beef Noodle
+Peter is buying Lanzhou Beef Noodle
+
+Current player stats:
+Peter - money: 20 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 15 - position: 2 - space: Fast Kebabs
+Charlotte - money: 9 - position: 0 - space: GO
+Sweedal - money: 9 - position: 2 - space: Fast Kebabs
+
+--- Billy rolls 2 ---
+Billy moved to Lanzhou Beef Noodle
+Billy needs to pay rent to Peter
+Rent is 2
+
+Current player stats:
+Peter - money: 22 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 9 - position: 0 - space: GO
+Sweedal - money: 9 - position: 2 - space: Fast Kebabs
+
+--- Charlotte rolls 1 ---
+Charlotte moved to The Burvale
+Charlotte needs to pay rent to Peter
+Rent is 2
+
+Current player stats:
+Peter - money: 24 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 7 - position: 1 - space: The Burvale
+Sweedal - money: 9 - position: 2 - space: Fast Kebabs
+
+--- Sweedal rolls 5 ---
+Sweedal moved to Gami Chicken
+Sweedal needs to pay rent to Peter
+Rent is 8
+
+Current player stats:
+Peter - money: 32 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 7 - position: 1 - space: The Burvale
+Sweedal - money: 1 - position: 7 - space: Gami Chicken
+
+--- Peter rolls 4 ---
+Peter moved to Massizim
+Peter landed on their own property Massizim
+
+Current player stats:
+Peter - money: 32 - position: 8 - space: Massizim
+Billy - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 7 - position: 1 - space: The Burvale
+Sweedal - money: 1 - position: 7 - space: Gami Chicken
+
+--- Billy rolls 5 ---
+Billy moved to GO
+Billy landed on GO
+
+Current player stats:
+Peter - money: 32 - position: 8 - space: Massizim
+Billy - money: 14 - position: 0 - space: GO
+Charlotte - money: 7 - position: 1 - space: The Burvale
+Sweedal - money: 1 - position: 7 - space: Gami Chicken
+
+--- Charlotte rolls 6 ---
+Charlotte moved to Gami Chicken
+Charlotte needs to pay rent to Peter
+Rent is 8
+
+Current player stats:
+Peter - money: 40 - position: 8 - space: Massizim
+Billy - money: 14 - position: 0 - space: GO
+Charlotte - money: -1 - position: 7 - space: Gami Chicken
+Sweedal - money: 1 - position: 7 - space: Gami Chicken
+Charlotte is bankrupt
+
+FINAL RESULTS
+Peter - money: 40 - position: 8 - space: Massizim
+Billy - money: 14 - position: 0 - space: GO
+Charlotte - money: -1 - position: 7 - space: Gami Chicken
+Sweedal - money: 1 - position: 7 - space: Gami Chicken
+
+WINNER: Peter
+
+-------------------------------------------------------
+Running Game with rolls from roll file: data/rolls_2.json
+-------------------------------------------------------
+
+--- Peter rolls 5 ---
+Peter moved to Betty's Burgers
+Peter is buying Betty's Burgers
+
+Current player stats:
+Peter - money: 13 - position: 5 - space: Betty's Burgers
+Billy - money: 16 - position: 0 - space: GO
+Charlotte - money: 16 - position: 0 - space: GO
+Sweedal - money: 16 - position: 0 - space: GO
+
+--- Billy rolls 2 ---
+Billy moved to Fast Kebabs
+Billy is buying Fast Kebabs
+
+Current player stats:
+Peter - money: 13 - position: 5 - space: Betty's Burgers
+Billy - money: 15 - position: 2 - space: Fast Kebabs
+Charlotte - money: 16 - position: 0 - space: GO
+Sweedal - money: 16 - position: 0 - space: GO
+
+--- Charlotte rolls 2 ---
+Charlotte moved to Fast Kebabs
+Charlotte needs to pay rent to Billy
+Rent is 1
+
+Current player stats:
+Peter - money: 13 - position: 5 - space: Betty's Burgers
+Billy - money: 16 - position: 2 - space: Fast Kebabs
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 16 - position: 0 - space: GO
+
+--- Sweedal rolls 1 ---
+Sweedal moved to The Burvale
+Sweedal is buying The Burvale
+
+Current player stats:
+Peter - money: 13 - position: 5 - space: Betty's Burgers
+Billy - money: 16 - position: 2 - space: Fast Kebabs
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Peter rolls 4 ---
+Peter moved to GO
+Peter landed on GO
+
+Current player stats:
+Peter - money: 14 - position: 0 - space: GO
+Billy - money: 16 - position: 2 - space: Fast Kebabs
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Billy rolls 1 ---
+Billy moved to The Grand Tofu
+Billy is buying The Grand Tofu
+
+Current player stats:
+Peter - money: 14 - position: 0 - space: GO
+Billy - money: 14 - position: 3 - space: The Grand Tofu
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Charlotte rolls 2 ---
+Charlotte moved to Lanzhou Beef Noodle
+Charlotte is buying Lanzhou Beef Noodle
+
+Current player stats:
+Peter - money: 14 - position: 0 - space: GO
+Billy - money: 14 - position: 3 - space: The Grand Tofu
+Charlotte - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 15 - position: 1 - space: The Burvale
+
+--- Sweedal rolls 1 ---
+Sweedal moved to Fast Kebabs
+Sweedal needs to pay rent to Billy
+Rent is 1
+
+Current player stats:
+Peter - money: 14 - position: 0 - space: GO
+Billy - money: 15 - position: 3 - space: The Grand Tofu
+Charlotte - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 14 - position: 2 - space: Fast Kebabs
+
+--- Peter rolls 3 ---
+Peter moved to The Grand Tofu
+Peter needs to pay rent to Billy
+Rent is 2
+
+Current player stats:
+Peter - money: 12 - position: 3 - space: The Grand Tofu
+Billy - money: 17 - position: 3 - space: The Grand Tofu
+Charlotte - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 14 - position: 2 - space: Fast Kebabs
+
+--- Billy rolls 1 ---
+Billy moved to Lanzhou Beef Noodle
+Billy needs to pay rent to Charlotte
+Rent is 2
+
+Current player stats:
+Peter - money: 12 - position: 3 - space: The Grand Tofu
+Billy - money: 15 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 15 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 14 - position: 2 - space: Fast Kebabs
+
+--- Charlotte rolls 4 ---
+Charlotte moved to Massizim
+Charlotte is buying Massizim
+
+Current player stats:
+Peter - money: 12 - position: 3 - space: The Grand Tofu
+Billy - money: 15 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 11 - position: 8 - space: Massizim
+Sweedal - money: 14 - position: 2 - space: Fast Kebabs
+
+--- Sweedal rolls 3 ---
+Sweedal moved to Betty's Burgers
+Sweedal needs to pay rent to Peter
+Rent is 3
+
+Current player stats:
+Peter - money: 15 - position: 3 - space: The Grand Tofu
+Billy - money: 15 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 11 - position: 8 - space: Massizim
+Sweedal - money: 11 - position: 5 - space: Betty's Burgers
+
+--- Peter rolls 5 ---
+Peter moved to Massizim
+Peter needs to pay rent to Charlotte
+Rent is 4
+
+Current player stats:
+Peter - money: 11 - position: 8 - space: Massizim
+Billy - money: 15 - position: 4 - space: Lanzhou Beef Noodle
+Charlotte - money: 15 - position: 8 - space: Massizim
+Sweedal - money: 11 - position: 5 - space: Betty's Burgers
+
+--- Billy rolls 2 ---
+Billy moved to YOMG
+Billy is buying YOMG
+
+Current player stats:
+Peter - money: 11 - position: 8 - space: Massizim
+Billy - money: 12 - position: 6 - space: YOMG
+Charlotte - money: 15 - position: 8 - space: Massizim
+Sweedal - money: 11 - position: 5 - space: Betty's Burgers
+
+--- Charlotte rolls 3 ---
+Charlotte moved to Fast Kebabs
+Charlotte needs to pay rent to Billy
+Rent is 1
+
+Current player stats:
+Peter - money: 11 - position: 8 - space: Massizim
+Billy - money: 13 - position: 6 - space: YOMG
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 11 - position: 5 - space: Betty's Burgers
+
+--- Sweedal rolls 1 ---
+Sweedal moved to YOMG
+Sweedal needs to pay rent to Billy
+Rent is 3
+
+Current player stats:
+Peter - money: 11 - position: 8 - space: Massizim
+Billy - money: 16 - position: 6 - space: YOMG
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 8 - position: 6 - space: YOMG
+
+--- Peter rolls 3 ---
+Peter moved to Fast Kebabs
+Peter needs to pay rent to Billy
+Rent is 1
+
+Current player stats:
+Peter - money: 11 - position: 2 - space: Fast Kebabs
+Billy - money: 17 - position: 6 - space: YOMG
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 8 - position: 6 - space: YOMG
+
+--- Billy rolls 1 ---
+Billy moved to Gami Chicken
+Billy is buying Gami Chicken
+
+Current player stats:
+Peter - money: 11 - position: 2 - space: Fast Kebabs
+Billy - money: 13 - position: 7 - space: Gami Chicken
+Charlotte - money: 15 - position: 2 - space: Fast Kebabs
+Sweedal - money: 8 - position: 6 - space: YOMG
+
+--- Charlotte rolls 1 ---
+Charlotte moved to The Grand Tofu
+Charlotte needs to pay rent to Billy
+Rent is 2
+
+Current player stats:
+Peter - money: 11 - position: 2 - space: Fast Kebabs
+Billy - money: 15 - position: 7 - space: Gami Chicken
+Charlotte - money: 13 - position: 3 - space: The Grand Tofu
+Sweedal - money: 8 - position: 6 - space: YOMG
+
+--- Sweedal rolls 3 ---
+Sweedal moved to GO
+Sweedal landed on GO
+
+Current player stats:
+Peter - money: 11 - position: 2 - space: Fast Kebabs
+Billy - money: 15 - position: 7 - space: Gami Chicken
+Charlotte - money: 13 - position: 3 - space: The Grand Tofu
+Sweedal - money: 9 - position: 0 - space: GO
+
+--- Peter rolls 4 ---
+Peter moved to YOMG
+Peter needs to pay rent to Billy
+Rent is 3
+
+Current player stats:
+Peter - money: 8 - position: 6 - space: YOMG
+Billy - money: 18 - position: 7 - space: Gami Chicken
+Charlotte - money: 13 - position: 3 - space: The Grand Tofu
+Sweedal - money: 9 - position: 0 - space: GO
+
+--- Billy rolls 2 ---
+Billy moved to GO
+Billy landed on GO
+
+Current player stats:
+Peter - money: 8 - position: 6 - space: YOMG
+Billy - money: 19 - position: 0 - space: GO
+Charlotte - money: 13 - position: 3 - space: The Grand Tofu
+Sweedal - money: 9 - position: 0 - space: GO
+
+--- Charlotte rolls 1 ---
+Charlotte moved to Lanzhou Beef Noodle
+Charlotte landed on their own property Lanzhou Beef Noodle
+
+Current player stats:
+Peter - money: 8 - position: 6 - space: YOMG
+Billy - money: 19 - position: 0 - space: GO
+Charlotte - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 9 - position: 0 - space: GO
+
+--- Sweedal rolls 3 ---
+Sweedal moved to The Grand Tofu
+Sweedal needs to pay rent to Billy
+Rent is 2
+
+Current player stats:
+Peter - money: 8 - position: 6 - space: YOMG
+Billy - money: 21 - position: 0 - space: GO
+Charlotte - money: 13 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 7 - position: 3 - space: The Grand Tofu
+
+--- Peter rolls 2 ---
+Peter moved to Massizim
+Peter needs to pay rent to Charlotte
+Rent is 4
+
+Current player stats:
+Peter - money: 4 - position: 8 - space: Massizim
+Billy - money: 21 - position: 0 - space: GO
+Charlotte - money: 17 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 7 - position: 3 - space: The Grand Tofu
+
+--- Billy rolls 3 ---
+Billy moved to The Grand Tofu
+Billy landed on their own property The Grand Tofu
+
+Current player stats:
+Peter - money: 4 - position: 8 - space: Massizim
+Billy - money: 21 - position: 3 - space: The Grand Tofu
+Charlotte - money: 17 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 7 - position: 3 - space: The Grand Tofu
+
+--- Charlotte rolls 5 ---
+Charlotte moved to GO
+Charlotte landed on GO
+
+Current player stats:
+Peter - money: 4 - position: 8 - space: Massizim
+Billy - money: 21 - position: 3 - space: The Grand Tofu
+Charlotte - money: 18 - position: 0 - space: GO
+Sweedal - money: 7 - position: 3 - space: The Grand Tofu
+
+--- Sweedal rolls 5 ---
+Sweedal moved to Massizim
+Sweedal needs to pay rent to Charlotte
+Rent is 4
+
+Current player stats:
+Peter - money: 4 - position: 8 - space: Massizim
+Billy - money: 21 - position: 3 - space: The Grand Tofu
+Charlotte - money: 22 - position: 0 - space: GO
+Sweedal - money: 3 - position: 8 - space: Massizim
+
+--- Peter rolls 3 ---
+Peter moved to Fast Kebabs
+Peter needs to pay rent to Billy
+Rent is 1
+
+Current player stats:
+Peter - money: 4 - position: 2 - space: Fast Kebabs
+Billy - money: 22 - position: 3 - space: The Grand Tofu
+Charlotte - money: 22 - position: 0 - space: GO
+Sweedal - money: 3 - position: 8 - space: Massizim
+
+--- Billy rolls 2 ---
+Billy moved to Betty's Burgers
+Billy needs to pay rent to Peter
+Rent is 3
+
+Current player stats:
+Peter - money: 7 - position: 2 - space: Fast Kebabs
+Billy - money: 19 - position: 5 - space: Betty's Burgers
+Charlotte - money: 22 - position: 0 - space: GO
+Sweedal - money: 3 - position: 8 - space: Massizim
+
+--- Charlotte rolls 4 ---
+Charlotte moved to Lanzhou Beef Noodle
+Charlotte landed on their own property Lanzhou Beef Noodle
+
+Current player stats:
+Peter - money: 7 - position: 2 - space: Fast Kebabs
+Billy - money: 19 - position: 5 - space: Betty's Burgers
+Charlotte - money: 22 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 3 - position: 8 - space: Massizim
+
+--- Sweedal rolls 5 ---
+Sweedal moved to Lanzhou Beef Noodle
+Sweedal needs to pay rent to Charlotte
+Rent is 2
+
+Current player stats:
+Peter - money: 7 - position: 2 - space: Fast Kebabs
+Billy - money: 19 - position: 5 - space: Betty's Burgers
+Charlotte - money: 24 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 2 - position: 4 - space: Lanzhou Beef Noodle
+
+--- Peter rolls 2 ---
+Peter moved to Lanzhou Beef Noodle
+Peter needs to pay rent to Charlotte
+Rent is 2
+
+Current player stats:
+Peter - money: 5 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 19 - position: 5 - space: Betty's Burgers
+Charlotte - money: 26 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 2 - position: 4 - space: Lanzhou Beef Noodle
+
+--- Billy rolls 6 ---
+Billy moved to Fast Kebabs
+Billy landed on their own property Fast Kebabs
+
+Current player stats:
+Peter - money: 5 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 20 - position: 2 - space: Fast Kebabs
+Charlotte - money: 26 - position: 4 - space: Lanzhou Beef Noodle
+Sweedal - money: 2 - position: 4 - space: Lanzhou Beef Noodle
+
+--- Charlotte rolls 5 ---
+Charlotte moved to GO
+Charlotte landed on GO
+
+Current player stats:
+Peter - money: 5 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 20 - position: 2 - space: Fast Kebabs
+Charlotte - money: 27 - position: 0 - space: GO
+Sweedal - money: 2 - position: 4 - space: Lanzhou Beef Noodle
+
+--- Sweedal rolls 4 ---
+Sweedal moved to Massizim
+Sweedal needs to pay rent to Charlotte
+Rent is 4
+
+Current player stats:
+Peter - money: 5 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 20 - position: 2 - space: Fast Kebabs
+Charlotte - money: 31 - position: 0 - space: GO
+Sweedal - money: -2 - position: 8 - space: Massizim
+Sweedal is bankrupt
+
+FINAL RESULTS
+Peter - money: 5 - position: 4 - space: Lanzhou Beef Noodle
+Billy - money: 20 - position: 2 - space: Fast Kebabs
+Charlotte - money: 31 - position: 0 - space: GO
+Sweedal - money: -2 - position: 8 - space: Massizim
+
+WINNER: Charlotte

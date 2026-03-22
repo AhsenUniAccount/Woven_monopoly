@@ -1,3 +1,4 @@
+#class which represents a player
 class Player:
     def __init__(self,name: str):
         self.name = name

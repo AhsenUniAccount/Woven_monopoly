@@ -1,7 +1,7 @@
 from core.player import Player
 from core.Spaces import Space, Go, Property
 
-
+#Controls turn order, movement, property actions, and game results
 class Game:
     def __init__(self, players: list[Player], board: list[Space]):
         self.players = players
@@ -9,6 +9,8 @@ class Game:
         self.currentTurn = 0
         self.gameActive = True
 
+
+    #moves the player across the board based on the next roll
     def movePlayer(self, player, roll):
         old_position = player.position
         board_size = len(self.board)
@@ -20,6 +22,7 @@ class Game:
 
         player.position = new_position
 
+    # checks if a player owns all properties of a single type
     def hasMonopoly(self, owner, colour):
         colour_properties = []
 
@@ -32,6 +35,9 @@ class Game:
                 return False
 
         return True
+    
+
+    # resolves all actions with landings, including buying, renting or nothing
 
     def landed(self, player):
         space = self.board[player.position]
@@ -61,6 +67,7 @@ class Game:
                 player.money -= rent_to_pay
                 space.owner.money += rent_to_pay
 
+    #player is moved and has their landing resolved, status of player is printed out 
     def takeTurn(self, player, roll):
         print("\n---", player.name, "rolls", roll, "---")
         self.movePlayer(player, roll)
@@ -77,6 +84,7 @@ class Game:
                 "- space:", current_space.name
             )
 
+    #calls the take turn using the pre-determined dice roll list
     def playGame(self, rolls):
         for roll in rolls:
             player = self.players[self.currentTurn]
@@ -89,6 +97,7 @@ class Game:
 
             self.currentTurn = (self.currentTurn + 1) % len(self.players)
 
+    #prints out the final results at the end of the game
     def printResults(self):
         print("\nFINAL RESULTS")
 
@@ -104,6 +113,7 @@ class Game:
         winner = self.getWinner()
         print("\nWINNER:", winner.name)
 
+    #selects the player with the highest money as the winner
     def getWinner(self):
         winner = self.players[0]
 

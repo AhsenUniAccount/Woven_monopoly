@@ -2,6 +2,7 @@
 * This project simulates Woven Monopoly using pre-determined rolls and boards which are loaded in
 * It outputs the positions, balances and properties owned of each player after every turn
 * It outputs the winner;s name, final positions, balances, and properties owned by all players at the end of the game
+*
 
 ## Game rules (copied from earlier README)
 * There are four players who take turns in the following order:
@@ -20,13 +21,15 @@
 * The board wraps around (i.e. you get to the last space, the next space is the first space)
 
 ## Project Structure
-   main.py - runs the simulation
+core/
    game.py - game logic and turn flow
    player.py - player class
    Spaces.py - board space classes
    jsonLoader.py - loads board data from JSON
+data/
    board.json - contains the spaces which will be loaded
    rolls.json - dice rolls
+main.py - runs the simulation
 
 ## Assumptions
 Regarding rent, in the game rules the rent itself isnt specified. I've chosen
@@ -34,10 +37,15 @@ to make the rent the same as the price in order to imitate a real game of monopo
 the rent is roughly proportional to the price, with more expensive properties charging higher rents
 
 ## Execution Instructions
-From the project root, run the "main.py" file, and the rest will 
+From the project root, run the following into the terminal from the project root:
 
-In order to change the rolls, you change the file name to the name of the file 
-containting the rolls you wish to run.
+python3 main.py > game_log.txt
+
+*note for windows users this will be:
+ python main.py > game_log.txt
+
+ The game results will show up in game_log.txt, where the rolls1 is executed 
+ followed by rolls 2
 
 ## Design Process
 * Broke down the task into the following steps and tested each one
@@ -47,6 +55,7 @@ containting the rolls you wish to run.
   * buying logic and property ownership
   * renting and monoply logic 
   * winning detection
+
 
 
 

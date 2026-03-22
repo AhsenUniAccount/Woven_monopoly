@@ -1,4 +1,4 @@
-# define the spaces here
+# classes which represent the different types of spaces on a board
 
 class Space:
     def __init__(self,name: str,position: int): #lock the datatypes?

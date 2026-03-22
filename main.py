@@ -3,9 +3,9 @@ from core.game import Game
 
 
 def runGame(roll_file):
-    print("\n------------------")
+    print("\n-------------------------------------------------------")
     print("Running Game with rolls from roll file:", roll_file)
-    print("------------------")
+    print("-------------------------------------------------------")
 
     board = loadBoard()
     rolls = loadRolls(roll_file)
@@ -18,4 +18,5 @@ def runGame(roll_file):
 
 if __name__ == "__main__":
     print("GAME START")
-    runGame("data/rolls_1.json") #CHANGE ROLLS HERE - change this file name to the file of choice
+    runGame("data/rolls_1.json")
+    runGame("data/rolls_2.json")
