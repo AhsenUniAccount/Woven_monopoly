@@ -1,13 +1,15 @@
 import json
 from typing import List
-from Spaces import Space, Go, Property
-from player import Player
+from core.Spaces import Space, Go, Property
+from core.player import Player
 
-
+"""
+loads the preset board and the rolls from their respective files
+"""
 def loadBoard() -> List[Space]:
     boardSpaces = []
 
-    with open("board.json", "r", encoding="utf-8") as f:
+    with open("data/board.json", "r", encoding="utf-8") as f:
         spaceString = f.read()
 
     spaceList = json.loads(spaceString)
@@ -40,7 +42,6 @@ def loadRolls(filename: str) -> List[int]:
 
     rolls = json.loads(rollString)
     return rolls
-
 
 def createPlayers() -> List[Player]:
     players = []

@@ -1,10 +1,5 @@
-from jsonLoader import loadBoard, loadRolls, createPlayers
-from Spaces import Go, Property
-from Game import Game
-
-
-from jsonLoader import loadBoard, loadRolls, createPlayers
-from Game import Game
+from core.jsonLoader import loadBoard, loadRolls, createPlayers
+from core.game import Game
 
 
 def runGame(roll_file):
@@ -22,5 +17,5 @@ def runGame(roll_file):
 
 
 if __name__ == "__main__":
-    print("_________________\n\n\n\nstart------------")
-    runGame("rolls_2.json") #CHANGE ROLLS HERE - change this file name to the file of choice
+    print("GAME START")
+    runGame("data/rolls_1.json") #CHANGE ROLLS HERE - change this file name to the file of choice
