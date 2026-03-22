@@ -9,8 +9,8 @@ from Game import Game
 
 def runGame(roll_file):
     print("\n------------------")
-    print("RUNNING GAME WITH", roll_file)
-    print("==========================")
+    print("Running Game with rolls from roll file:", roll_file)
+    print("------------------")
 
     board = loadBoard()
     rolls = loadRolls(roll_file)
@@ -23,4 +23,4 @@ def runGame(roll_file):
 
 if __name__ == "__main__":
     print("_________________\n\n\n\nstart------------")
-    runGame("rolls_2.json")
+    runGame("rolls_2.json") #to use other rolls, change this file name to the file of choice
