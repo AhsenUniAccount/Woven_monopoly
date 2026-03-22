@@ -51,15 +51,25 @@ python3 main.py > game_log.txt
 * Broke down the task into the following steps and tested each one
   * creating objects (spaces, players, an instance of the game)
   * reading the files in correctly (Rolls and the board)
+      tested by printing the objects attributes and manually checking that they match files
   * moving the players and go logic
+      tested by moving players from a distance of 1-6 and checking that they landed 
+      at the correct place, repeated to move them over go 
   * buying logic and property ownership
-  * renting and monoply logic 
+      tested by landing a player on an unowned property and checking:
+      ownership is assigned correctly
+      player money decreases by the property price
+      property is added to the player’s property list
+  * renting and monopoly logic
+      tested by:
+      landing a player on another player's property and verifying rent is transferred correctly
+      manually assigning ownership of all properties of a colour to one player and checking that rent is doubled
+      verifying that landing on your own property does not change money
   * winning detection
-
-
-
-
-
+      tested by forcing a player into bankruptcy (money <= 0) and checking:
+      the game stops immediately
+      the player is marked as bankrupt
+      the winner is correctly identified as the player with the highest remaining money
 
 ## original README 
 
