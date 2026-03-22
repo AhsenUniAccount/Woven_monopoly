@@ -2,6 +2,13 @@ from player import Player
 from Spaces import Space, Go, Property
 
 
+"""
+Contains the majority of the logic for the game itself, such as 
+
+
+
+"""
+
 class Game:
     def __init__(self, players: list[Player], board: list[Space]):
         self.players = players

@@ -23,4 +23,4 @@ def runGame(roll_file):
 
 if __name__ == "__main__":
     print("_________________\n\n\n\nstart------------")
-    runGame("rolls_2.json") #to use other rolls, change this file name to the file of choice
+    runGame("rolls_2.json") #CHANGE ROLLS HERE - change this file name to the file of choice
